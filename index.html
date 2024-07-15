@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tod Do List</title>
+    <title>To Do List</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+
   </head>
-  <body>
+  <body class="body">
     <header>
       <nav class="navbar navbar-dark mb-3 navbar-expand-lg bg-dark">
         <div class="container">
@@ -49,9 +54,6 @@
                   </li>
                 </ul>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li> -->
             </ul>
             <form class="d-flex" role="search">
               <input
@@ -69,14 +71,18 @@
       </nav>
     </header>
     <main>
-      <div class="container">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-            provident laboriosam ea delectus voluptatum ab blanditiis doloremque
-            mollitia perferendis, quaerat quis quod quidem magnam deleniti, impedit
-            consequuntur aspernatur asperiores voluptatem.
-          </p>
-      </div>
+      <div class="container mt-5 d-flex justify-content-center align-items-center h-100">
+        <div class="rounded-container d-flex flex-column align-items-stretch w-50">
+            <h2 class="text-left text-blue">To-Do List <i class="fas fa-clipboard-list fa-fw"></i></h2>
+            <div class="input-group mt-3">
+                <input type="text" class="form-control p-3" placeholder="Add new task" />
+                <div class="input-group-append">
+                    <button class="btn btn-dark-orange btn-lg btn-no-hover p-3" type="button">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     </main>
     <footer></footer>
 

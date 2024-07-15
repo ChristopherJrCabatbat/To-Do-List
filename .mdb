@@ -1,0 +1,9 @@
+{
+  "projectName": "to-do-list",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "f9da57eb",
+  "domain": "to-do-list.mdbgo.io"
+}

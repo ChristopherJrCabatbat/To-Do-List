@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to bottom right, #00008B, #8A2BE2);
+    height: 100vh;
+}
+
+.rounded-container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    padding-bottom: 80px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.input-group .form-control {
+    border-radius: 50px;
+    font-size: 1.2rem
+}
+
+.input-group .btn {
+    border-radius: 0 50px 50px 0;
+    min-width: 8vw; /* Adjust button width as needed */
+    font-size: 1.2rem; /* Increase font size */
+}
+
+.btn-dark-orange {
+    background-color: #bf5f00;
+    color: white;
+    border-color: #bf5f00; /* Match background color */
+}
+
+.btn-no-hover:hover {
+    background-color: #bf5f00; /* Ensure background color stays the same on hover */
+    color: white; /* Ensure text color stays the same on hover */
+    border-color: #bf5f00; /* Ensure border color stays the same on hover */
+}
+
+.text-blue {
+    color: #00008B;
+}
+
+.fa-list-ul {
+    font-size: 1.2em;
+}
